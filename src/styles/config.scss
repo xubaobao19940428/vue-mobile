@@ -1,0 +1,90 @@
+//val
+$i 						:1rem;
+
+//color
+$primary-color          : #3399ff;
+$info-color             : #2db7f5;
+$success-color          : #00cc66;
+$warning-color          : #ff9900;
+$error-color            : #f5354d;
+$write-color            : #fff;
+$subsidiary-color       : #9ea7b4;
+$rate-star-color        : #f5a623;
+$color                  : #ff495e;
+$color-red              : #f92028;	/*红色*/
+$color-org              : #fba534;	/*橘黄色*/
+$color-org-two          : #fb9c0e;	/*浅橘色*/
+$color-98				: #45cf79;	/*浅绿色*/
+$color-c78				: #ea51df;	/*褐色*/
+$color-f9c				: #fb6c4a;	/*帮助*/
+$color-e72				: #43b8ca;	/*粉色*/
+$color-289				: #2a9be3;	/*蓝色*/
+$color-ff7				: #46c0f3;	/*微筹色*/
+$color-ed				: #ed8000;	/*橙色*/
+$color-00a				: #00a3e7;	/*浅蓝色*/
+$color-zi				: #7b75f3;	/*紫色*/
+$color-low				: #13ab53;	/*紫色*/
+$color-center			: #f447c9;	/*紫色*/
+$color-brownness        : #AC8054;  /*褐色2*/
+$color-pink             : #EC0B35;  /*粉红色*/
+
+$color-black			: #000;
+$color-black-2			: #232326;
+$color-gay				: #ccc;
+$color-gay-e			: #eee;
+$color-gay-1			: #111;	
+$color-gay-2			: #222;
+$color-gay-3            : #333;
+$color-gay-4            : #444;
+$color-gay-5            : #555;
+$color-gay-6            : #666;
+$color-gay-7            : #777;
+$color-gay-8            : #888;
+$color-gay-9            : #999;
+
+// Base
+$body-background        : #f4f4f4;
+$font-family            : PingFang-Medium,PingFangSC-Regular,Heiti,Heiti SC,DroidSans,DroidSansFallback,"Microsoft YaHei",sans-serif;
+$code-family            : Consolas,Menlo,Courier,monospace;
+$title-color            : #464c5b;
+$text-color             : #333;
+$text-title-color       : #000;
+$link-color             : #4b89dc;
+$link-hover-color       : lighten($link-color, 5%);
+$link-active-color      : darken($link-color, 5%);
+$font-size-base         : 1rem;
+$font-size-small        : .86rem;
+$line-height-base       : 1.5;
+$border-radius-base     : .2rem;
+$border-radius-small    : .1rem;
+$cursor-disabled        : not-allowed;
+
+$tab-height             : 3.6rem;
+$component-height       : 3.2rem;
+
+// Border color
+$border-color-base      : #dfe2e2;  // outside
+$border-color-split     : #e3e8ee;  // inside
+
+// padding
+$padding-all            : 1.1rem;
+
+// Animation
+$animation-time         : .3s;
+$transition-time        : .2s;
+$ease-in-out            : ease-in-out;
+
+//layout
+$icon-margin            :.5rem;
+$header-height          : 4.4rem;
+$nav-padding            : 1.4rem;
+
+//tool-title
+$tool-bg                :#f3f4f5;
+$tool-title-size        :1.5rem;
+
+//iphonex
+$ipx-top				: env(safe-area-inset-top);
+$ipx-right				: env(safe-area-inset-right);
+$ipx-left				: env(safe-area-inset-left);
+$ipx-bottom				: env(safe-area-inset-bottom);
